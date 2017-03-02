@@ -1,0 +1,19 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server" : "node node_modules/json-server/bin/index.js db.json --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.0",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "json-server": "^0.9.5",
+    "nodemon": "^1.11.0"
+  }
+}
